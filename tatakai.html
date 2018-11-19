@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>pratice</title>
+    <style>
+      * {margin:0; padding:0; overflow-y:hidden;}
+      section {position:relative; height:100vh;}
+
+  
+      
+
+      #imgone{width:10000px; height:100%; position:absolute; z-index:-10;}
+      #imgtwo{width:8000px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgthree{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgfour{width:3588px; height:100%;  position:relative; margin-left:-500px;  z-index:-3;}
+      #imgfive{width:3588px; height:100%; position:absolute; left:0px; top:0px;
+      }
+      #imgsix{width:2636px; height:100%;  position:fixed;  z-index:-3;}
+
+      #imgseven{width:3588px; height:100%; position:absolute; left:0px; top:0px;
+      filter:blur(2px); animation:fire 2s infinite;  animation-fill-mode:both}
+       @keyframes fire{
+                       0%{height:100%;}
+                100%{height:101%;}
+                        }
+
+      #imgnine{width:10000px; height:100%; position:absolute; left:0px; top:0px;}
+
+
+
+      #imgten{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgelven{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgtwelve{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgthirteen{width:3588px; height:100%; position:absolute; left:0px; top:0px;
+        filter:blur(2px); animation:firee 3s infinite;  animation-fill-mode:both}
+         @keyframes firee{
+                       0%{height:100%;}
+                50%{height:105%;}
+                100%{height:100%;}
+                        }
+      #imgfourteen{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+      #imgfifteen{width:3588px; height:100%; position:absolute; left:0px; top:0px;}
+    
+      #imgseventeen{width:3588px; height:100%; position:absolute; left:0px; top:0px;
+       animation:dust 10s infinite;  animation-fill-mode:both}
+    @keyframes dust{
+                       0%{margin-top:0; margin-left:0;}
+                100%{margin-top:100px; margin-left:200px;}
+                
+                        }
+ 
+    
+      
+   
+      #imgfivecopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px; z-index:0;}
+      #imgsixcopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px;
+        z-index:-4;}
+      #imgtencopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px;}
+      #imgtencopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px;}
+      #imgtencopyy{width:3588px; height:100%; position:absolute; left:1508px; top:0px; z-index:-2;}
+       #imgtencopyyy{width:3588px; height:100%; position:absolute; left:6008px; top:0px; z-index:-2;}
+     
+      #imgtwelvecopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px;}
+   
+      #imgfourteencopy{width:8000px; height:100%; position:absolute; left:2500px; top:0px; z-index:0;}
+ 
+      #imgfifteencopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px;}
+
+      #imgsixteencopy{width:10700px; height:100%; position:absolute; left:0px; top:0px; 
+        z-index:10; filter:blur(5px);}
+
+     
+
+      
+
+
+
+
+      #imgseventeencopy{width:3588px; height:100%; position:absolute; left:3588px; top:0px; z-index:-3; animation:dustt 10s infinite;  animation-fill-mode:both}
+        @keyframes dustt{
+                       0%{margin-top:0; margin-left:0;}
+                100%{margin-top:100px; margin-left:200px;}
+                
+                        }
+
+      #imgeighteen{width:10000px; height:100%; position:absolute; left:0px; top:0px;}
+
+
+
+     #sol {width:200px; height:200px; position:fixed; left:45%; bottom: 100px;}
+
+     #soll {width:0px; height:0px; position:fixed; left:44%; bottom: 100px;}
+   
+
+    </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  
+  </head>
+  <body>
+
+    <section class= "sec1">
+     
+      <div id="myDIV" onwheel="myFunction()">
+
+<div id= "all">
+      <img id= imgone src="1_sq1_sky.png">
+    <img id= imgtwo src="1_sq2_fog.png">
+    <img id= imgthree src="1_sq3_bc.png">
+    <img id= imgfour src="1_sq4_bt.png">
+    <img id= imgfive src="1_sq5_5dmk.png"> 
+    <img id= imgsix src="1_sq6_sm.png">
+    <img id= imgseven src="1_sq7_fire.png">
+    <img id= imgnine src="1_sq9_dagi.png">
+    <img id= imgten src="1_sq10_grass.png">
+    <img id= imgeleven src="1_sq11_dagi.png">
+    <img id= imgtwelve src="1_sq12_tree.png">
+    <img id= imgthirteen src="1_sq13_fire.png">
+    <img id= imgfourteen src="1_sq14_gr.png">
+    <img id= imgfifteen src="1_sq15_grlight.png">
+   
+    <img id= imgseventeen src="1_sq17_dust.png">
+
+
+    <img id= imgfivecopy src="1_sq5_5dmk.png"> 
+    <img id= imgtencopy src="1_sq10_grass.png">
+ <img id= imgtencopyy src="1_sq10_grass.png">
+  <img id= imgtencopyyy src="1_sq10_grass.png">
+    <img id= imgtwelvecopy src="1_sq12_tree.png">
+    <img id= imgfourteencopy src="1_sq14_gr.png">
+    <img id= imgfifteencopy src="1_sq15_grlight.png">
+    <img id= imgsixteencopy src="1_sq16_ground.png">
+
+
+    <img id= imgseventeencopy src="1_sq17_dust.png">
+
+
+    <img id= imgeighteen src="1_sq18_sunl.png">   
+
+
+    <img id = sol src="가만히.gif">
+
+
+
+    <img id = soll src="걸어가다.gif">
+  </div>
+
+ </div> 
+    </section>
+
+    <section class="sec2" > </section>
+    <section class="sec3"></section>
+    <section class="sec4"></section>
+
+  <script type="text/javascript">
+
+
+      <!--
+        $(document).ready(function(){
+          var s = ($("section").length);
+          $("body").css({"width":100*s+"vw"});
+          var i = 0;
+          $(window).on("mousewheel",function(e){
+
+            if(e.originalEvent.deltaY>0){
+              i++;
+              $("html").scrollLeft(i*100);
+            }else if(e.originalEvent.deltaY<0){
+              i--;
+              $("html").scrollLeft(i*100);
+            }
+          })
+        })
+      //-->
+
+
+ window.onscroll = function(e){
+       
+          
+          imgsixteencopy.style.left = -(window.pageXOffset/3)+"px";
+   
+        imgsix.style.left = +(window.pageXOffset/-100)+"px";
+
+          imgten.style.left = -(window.pageXOffset/-2)+"px";
+          imgfive.style.left = -(window.pageXOffset/-2)+"px";
+             imgthree.style.left = -(window.pageXOffset/-2)+"px";
+             imgfour.style.left = -(window.pageXOffset/-2)+"px";
+
+        
+    
+        }
+
+
+
+      var toggle = "off";
+
+
+   function myFunction() {
+   
+
+if(toggle == "off"){
+      toggle = "on";
+    sol.style.width= "0px";
+
+   soll.style.width="200px";
+   soll.style.height="200px";
+      }
+      else{ 
+      toggle = "off";
+       soll.style.width= "0px";
+
+   sol.style.width="200px";
+   sol.style.height="200px";
+      
+      }
+      }
+
+
+
+
+    </script>
+
+  </body>
+</html>
